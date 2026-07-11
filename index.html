@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>החתונה של יובל ובוריס</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;600;700&family=Great+Vibes&family=Heebo:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main>
+    <section id="cover" class="cover screen active" aria-label="דף פתיחה">
+      <button class="open-invite" id="openInvite" aria-label="פתחו את ההזמנה">
+        <img src="assets/opening.png" alt="הזמנה לחתונה של יובל ובוריס" />
+        <span class="click-text">לחצו לפתיחת ההזמנה</span>
+      </button>
+    </section>
+
+    <section id="invitation" class="invitation screen" aria-label="הזמנה לחתונה">
+      <div class="paper-frame">
+        <div class="ornament ornament-top-left"></div>
+        <div class="ornament ornament-top-right"></div>
+        <div class="ornament ornament-bottom-left"></div>
+        <div class="ornament ornament-bottom-right"></div>
+
+        <p class="small-title">We're getting married!</p>
+        <h1>Yuval &amp; Boris</h1>
+        <h2>יובל ובוריס</h2>
+
+        <div class="divider"></div>
+
+        <p class="intro">שמחים להזמין אתכם לחגוג איתנו את יום חתונתנו</p>
+
+        <div class="details">
+          <div class="detail-card">
+            <span>תאריך</span>
+            <strong>28.7.2027</strong>
+          </div>
+          <div class="detail-card">
+            <span>מקום</span>
+            <strong>אלכסנדר, עמק חפר</strong>
+          </div>
+          <div class="detail-card">
+            <span>קבלת פנים</span>
+            <strong>19:00</strong>
+          </div>
+          <div class="detail-card">
+            <span>חופה וקידושין</span>
+            <strong>20:00</strong>
+          </div>
+        </div>
+
+        <section class="countdown-wrap" aria-label="ספירה לאחור לחתונה">
+          <h3>סופרים לאחור</h3>
+          <div class="countdown" id="countdown">
+            <div><strong id="days">00</strong><span>ימים</span></div>
+            <div><strong id="hours">00</strong><span>שעות</span></div>
+            <div><strong id="minutes">00</strong><span>דקות</span></div>
+            <div><strong id="seconds">00</strong><span>שניות</span></div>
+          </div>
+        </section>
+
+        <img class="palace" src="assets/palace.png" alt="איור וינטאג' של ארמון" />
+
+        <section class="photo-section">
+          <h3>התמונה שלנו</h3>
+          <p class="photo-note">כדי להוסיף תמונה: העלו לקובץ assets תמונה בשם <b>couple.jpg</b>, ואז החליפו את השורה המסומנת בקובץ HTML לפי ההערה.</p>
+          <!-- אחרי שתעלי תמונה משלך בשם assets/couple.jpg, מחקי את ה-div הבא והחזירי את שורת התמונה שמתחתיו -->
+          <div class="photo-placeholder">כאן תופיע התמונה שתוסיפי</div>
+          <!-- <img class="couple-photo" src="assets/couple.jpg" alt="יובל ובוריס" /> -->
+        </section>
+
+        <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=%D7%90%D7%9C%D7%9B%D7%A1%D7%A0%D7%93%D7%A8%20%D7%A2%D7%9E%D7%A7%20%D7%97%D7%A4%D7%A8" target="_blank" rel="noopener">פתיחה במפות</a>
+      </div>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
