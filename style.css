@@ -153,3 +153,66 @@ body::before {
     padding: 10px 22px;
   }
 }
+
+.envelope-button {
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+  padding: 0;
+  width: min(92vw, 760px);
+  animation: fadeUp .9s ease both;
+}
+
+.envelope-animation {
+  position: relative;
+  width: 100%;
+  perspective: 1200px;
+}
+
+.cover-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 4px;
+  box-shadow: 0 20px 55px var(--shadow);
+  transition: transform .45s ease, filter .45s ease, opacity .45s ease;
+  position: relative;
+  z-index: 2;
+}
+
+.letter-preview {
+  position: absolute;
+  left: 14%;
+  right: 14%;
+  bottom: 18%;
+  height: 45%;
+  background:
+    linear-gradient(rgba(255,255,255,.20), rgba(255,255,255,.05)),
+    #f3eadc;
+  border: 1px solid rgba(92, 65, 38, .25);
+  box-shadow: 0 12px 30px rgba(48, 34, 20, .18);
+  z-index: 1;
+  opacity: 0;
+  transform: translateY(40px) scale(.88);
+  transition: all 1s ease;
+}
+
+.envelope-button:hover .cover-image {
+  transform: translateY(-5px) scale(1.01);
+  filter: brightness(1.03);
+}
+
+.cover.opening .cover-image {
+  transform: translateY(18px) scale(.92) rotateX(12deg);
+  opacity: .25;
+  filter: blur(1px);
+}
+
+.cover.opening .letter-preview {
+  opacity: 1;
+  transform: translateY(-135px) scale(1.08);
+}
+
+.cover.opening .click-text {
+  opacity: 0;
+}
