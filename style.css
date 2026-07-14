@@ -53,6 +53,10 @@ body {
   animation: floatIn 0.9s ease forwards;
 }
 
+.cover-title { 
+  display: block; 
+}
+
 .title-1 {
   width: min(40vw, 240px);
   margin-bottom: -16px;
@@ -79,6 +83,11 @@ body {
   width: 100%;
   display: block;
   filter: drop-shadow(0 16px 22px rgba(55, 38, 22, 0.22));
+  transition: transform 0.35s ease;
+}
+
+.envelope-button:hover .closed-envelope { 
+  transform: translateY(-6px) scale(1.025); 
 }
 
 .press-text {
@@ -107,22 +116,22 @@ body {
   position: relative;
   width: min(100%, 1536px);
   margin: 0 auto;
-}
-
-.second-background {
-  display: block;
-  width: 100%;
-  height: auto;
+  background-image: url("assets/second_bk.png"); 
+  background-size: 100% 100%; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  overflow: visible;
 }
 
 .open-envelope-gif {
   position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-  pointer-events: none;
-  z-index: 2;
+  width: 85%; 
+  left: 20%; 
+  bottom: 9.5%; 
+  transform: translateX(-50%); 
+  display: block; 
+  z-index: 2; 
+  filter: drop-shadow(0 14px 22px rgba(55, 38, 22, 0.2));
 }
 
 /* שלושת דפי ההזמנה */
@@ -182,6 +191,8 @@ body {
   .cover-stage {
     width: 100vw;
     padding: 0 6vw;
+    justify-content: center; 
+    align-items: center; }
   }
 
   .hero-content {
@@ -207,6 +218,20 @@ body {
   .press-text {
     width: 30vw;
     margin-top: 28px;
+  }
+  
+  .open-area { 
+    padding: 0 0 12px; 
+  }
+
+  .open-stage { 
+    width: 100vw; 
+  } 
+
+  .open-envelope-gif { 
+    width: 84%; 
+    left: 50%; 
+    bottom: 9%; 
   }
 
   .invite-page {
