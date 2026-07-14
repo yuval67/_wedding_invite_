@@ -130,7 +130,7 @@ body {
   position: absolute;
   width: 66%;
   left: 17%;
-  bottom: 12%;
+  bottom: 20%;
   display: block;
   z-index: 2;
   filter: drop-shadow(0 14px 22px rgba(55, 38, 22, 0.2));
@@ -234,7 +234,7 @@ body {
   .open-envelope-gif {
     width: 70%;
     left: 15%;
-    bottom: 13%;
+    bottom: 20%;
   }
 
   .invite-page {
