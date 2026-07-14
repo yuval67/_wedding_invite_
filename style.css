@@ -130,7 +130,7 @@ body {
   position: absolute;
   width: 85%;
   left: 10%;
-  bottom: 7%;
+  bottom: 8.5%;
   display: block;
   z-index: 2;
   filter: drop-shadow(0 14px 22px rgba(55, 38, 22, 0.2));
@@ -199,28 +199,28 @@ body {
   }
 
   .hero-content {
-    transform: translateY(-7vh);
+    transform: translateY(-3vh);
   }
 
   .title-1 {
     width: 46vw;
-    margin-bottom: -6px;
+    margin-bottom: -4px;
   }
 
   .title-2 {
     width: 70vw;
-    margin-top: 0px;
-    margin-bottom: -6px;
+    margin-top: 2px;
+    margin-bottom: 4px;
   }
 
   .envelope-button {
     width: 58vw;
-    margin-top: 32px;
+    margin-top: 18px;
   }
 
   .press-text {
     width: 30vw;
-    margin-top: 36px;
+    margin-top: 24px;
   }
 
   .open-area {
