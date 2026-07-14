@@ -88,7 +88,7 @@ body {
 
 .press-text {
   width: min(24vw, 175px);
-  margin-top: 16px;
+  margin-top: 4px;
   animation-delay: 1.25s;
 }
 
@@ -247,7 +247,7 @@ body {
 
   .press-text {
     width: 28vw;
-    margin-top: 10px;
+    margin-top: 18px;
   }
 
   .open-area {
