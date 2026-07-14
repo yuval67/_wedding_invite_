@@ -128,8 +128,8 @@ body {
 
 .open-envelope-gif {
   position: absolute;
-  width: 66%;
-  left: 17%;
+  width: 72%;
+  left: 14%;
   bottom: 20%;
   display: block;
   z-index: 2;
@@ -204,23 +204,23 @@ body {
 
   .title-1 {
     width: 46vw;
-    margin-bottom: -14px;
+    margin-bottom: -6px;
   }
 
   .title-2 {
     width: 70vw;
-    margin-top: -8px;
-    margin-bottom: -20px;
+    margin-top: 0;
+    margin-bottom: -6px;
   }
 
   .envelope-button {
     width: 58vw;
-    margin-top: 8px;
+    margin-top: 18px;
   }
 
   .press-text {
     width: 30vw;
-    margin-top: 22px;
+    margin-top: 28px;
   }
 
   .open-area {
@@ -232,8 +232,8 @@ body {
   }
 
   .open-envelope-gif {
-    width: 70%;
-    left: 15%;
+    width: 76%;
+    left: 12%;
     bottom: 20%;
   }
 
