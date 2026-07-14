@@ -108,32 +108,34 @@ body {
   padding:0;
 }
 
-.open-area {
-  width: 100%;
-  background: #f3eadc;
-  padding:0;
+.open-area{
+    width:100%;
+    display:flex;
+    justify-content:center;
+    margin-bottom:20px;
 }
 
-.open-stage {
-  position: relative;
-  width: min(100%, 1536px);
-  aspect-ratio: 1536 / 864;
-  margin: 0 auto;
-  background-image: url("assets/second_bk.png");
-  background-size: 100% 100%;
-  background-position: center;
-  background-repeat: no-repeat;
+.open-stage{
+    width:100%;
 }
 
-.open-envelope-gif {
-  position: absolute;
-  width: 85%;
-  left: 10%;
-  bottom: 9.5%;
-  transform: translateX(-50%);
-  display: block;
-  z-index: 2;
-  filter: drop-shadow(0 14px 22px rgba(55, 38, 22, 0.2));
+.envelope-background{
+    width:100%;
+    display:block;
+}
+
+.open-envelope-gif{
+
+    position:absolute;
+
+    inset:0;
+
+    width:100%;
+    height:100%;
+
+    object-fit:contain;
+
+    pointer-events:none;
 }
 
 /* שלושת דפי ההזמנה */
