@@ -1,4 +1,3 @@
-
 * {
   box-sizing: border-box;
 }
@@ -88,8 +87,8 @@ body {
 }
 
 .press-text {
-  width: min(28vw, 210px);
-  margin-top: -14px;
+  width: min(24vw, 175px);
+  margin-top: -20px;
   animation-delay: 1.25s;
 }
 
