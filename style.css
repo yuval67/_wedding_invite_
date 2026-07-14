@@ -123,24 +123,14 @@ body {
   overflow: hidden;
 }
 
-.open-envelope-back {
-    position: absolute;
-    width: 48%;
-    left: 26%;
-    bottom: 5.5%;
-    z-index: 1;
-    display: block;
-    filter: drop-shadow(0 14px 22px rgba(55,38,22,.2));
-}
-
+.open-envelope-back,
 .open-envelope-front {
-    position: absolute;
-    width: 54%;
-    left: 25%;
-    bottom: 5.2%;
-    z-index: 3;
-    display: block;
-    filter: drop-shadow(0 14px 22px rgba(55,38,22,.2));
+  position: absolute;
+  width: 48%;
+  left: 26%;
+  bottom: 5.5%;
+  display: block;
+  filter: drop-shadow(0 14px 22px rgba(55, 38, 22, 0.2));
 }
 
 .open-envelope-back {
@@ -155,7 +145,7 @@ body {
   position: absolute;
   width: 27%;
   left: 36.5%;
-  bottom: 36%;
+  bottom: 37.5%;
   z-index: 2;
   transform: translateY(28px);
   animation: noteRise 1.1s ease forwards;
