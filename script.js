@@ -9,5 +9,5 @@ openButton.addEventListener("click", () => {
     cover.classList.remove("active");
     invitation.classList.add("active");
     window.scrollTo(0, 0);
-  }, 650);
+  }, 300);
 });
